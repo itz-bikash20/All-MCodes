@@ -1,0 +1,18 @@
+Here the task was to create an e-commerce database schema and to optimize that.
+
+So, I have created a simple schema, then I created two tables where one is for the customers details
+and the other one is for the orders details.
+
+Then I entered some random values to these tables.
+
+I went for the EXPLAIN query to understand the execution timing of my complex query.
+
+After that, I gave a prompt to ChatGPT to optimize my query to make it more fast and efficient.
+The prompt was:-
+"This is one of my complex query which I want to Optimize it to reduce the execution time and make it more faster and more efficient"
+
+After that it find some areas where my query can be optimized.
+Problem 1: Avoid YEAR() in WHERE Clause
+Problem 2: Add Proper Indexes
+
+After that, I got an optimized query whose execution time is less as compared to my existing query.
